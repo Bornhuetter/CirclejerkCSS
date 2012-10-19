@@ -1,0 +1,3046 @@
+===================================
+===================================
+===================================
+      SUBREDDIT DESCRIPTION
+===================================
+===================================
+===================================
+
+
+TROPHY CASE|[what's this?](http://www.reddit.com/help/awards)
+:----------:|:----------:
+[](///#trophy1)|[](///#trophy2)
+Over the line!|Reddit Platinum
+This isn't 'Nam|Charter Subreddit
+
+[](http://bit.ly/defcon)
+
+Have all your crazy values reaffirmed.
+
+---  
+
+Join us in [##circlejerk on irc.freenode.net](http://bit.ly/9lCLvA).  
+
+---
+
+[Circlejerk FAQ](http://www.reddit.com/help/faqs/circlejerk)  
+
+---
+
+Subreddits we enjoy:  
+[ShittyAdvice](http://www.reddit.com/r/shittyadvice/)  
+[FFFFFFFUUUUUUUUUUUU](http://www.reddit.com/r/fffffffuuuuuuuuuuuu/)     
+   
+---
+
+[Full list](http://www.reddit.com/r/circlejerk/comments/eitib/full_list_of_subreddits_from_the_circlejerk/) of subreddits from the circlejerk universe.
+
+Featured:              
+[Metacirclejerk](http://www.reddit.com/r/METACIRCLEJERK)          
+[Metametacirclejerk](http://www.reddit.com/r/metametacirclejerk/)  
+[Trianglejerk](http://www.reddit.com/r/TRIANGLEJERK)
+
+---
+
+[Enable custom styles](http://www.reddit.com/prefs/) for maximum fapping potential.   
+
+
+===================================
+===================================
+===================================
+               CSS
+===================================
+===================================
+===================================
+
+
+/* Before editing this CSS, please add a comment below stating that you
+    are currently editing it. If someone else is editing the file, don't touch
+    it until the message is gone */
+
+/* ======================== */
+/* BEING EDITED BY: NO ONE  */
+/* ======================== */
+
+/* =================================== */
+/* ytknows - Reverted to pre 3.1 stylesheet booyah bitches  */
+/* ================================ ===*/
+
+/* link colors */
+
+.thing .title a {
+    color:#2e8fcc!important;
+}
+
+.thing .title a:visited {
+    color:#879fae!important;
+}
+
+/* infinite upboats! */
+/*.link .score {
+    font-size:0;
+    visibility:hidden;
+}
+
+.link .score:after {
+    content:"∞";
+    font-size:small;
+    visibility:visible;
+} */
+
+
+/* top background */
+#header {
+    background: url(%%header-gradient%%) repeat-x bottom left;
+    z-index:95;
+}
+
+.tabmenu li a {
+    -moz-border-radius-topleft:4px;
+    -webkit-border-top-left-radius:4px;
+    -moz-border-radius-topright:4px;
+    -webkit-border-top-right-radius:4px;
+    border:1px solid #5F99CF;
+    background: url(%%header-gradient%%) repeat-x bottom left;
+}
+
+.tabmenu li.selected a {
+    background-image:none;
+}
+
+.tabmenu li.selected a:hover {
+    color:#336699;
+}
+
+.tabmenu li a:hover {
+    background-position: 20px;
+}
+
+#header-bottom-right {
+    background: url(%%header-gradient%%) repeat-x bottom left;
+    border-top:1px solid #5F99CF;
+    border-left:1px solid #5F99CF;
+}
+
+#header-bottom-right:hover {
+    background-position: 20px;
+}
+
+#header-bottom-right .separator {
+    color: #5F99CF;
+    font-weight:bold;
+    }
+
+#header-bottom-right .user {
+    color: #336699;
+}
+
+#header-bottom-right .user a {
+    color: #336699
+}
+
+/* reddits bar */
+#sr-header-area {
+    font-size: 80%;
+    padding: 2px 0;
+}
+
+/* hide 'subscribers' add fake number and circlejerkers */
+.titlebox .word {
+    display: none;
+}
+.titlebox .number:before {
+    content: "Over  ";
+}
+.titlebox .number:after {
+        content: " erudites.";
+}
+
+/* titlebox changes */
+/*.titlebox {
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border:1px solid #5F99CF;
+    background-image:url(%%biggradient%%);
+    background-position:bottom left;
+    background-repeat:repeat-x;
+    background-color:#f0f7fe!important;
+    padding:5px;
+    z-index:125;
+}
+
+.titlebox .bottom {
+    border-top: 1px solid #3b5f81;
+}
+
+.titlebox h1 {
+    font-size:110%;
+}
+
+.titlebox h1:hover:after {
+    content:" loves you."
+}
+
+.titlebox hr {
+    color: #5F99CF;
+    background-color: #5F99CF;
+    height: 1px;
+} */
+
+/* footer styling */
+.footer {
+    border:1px solid #5F99CF;
+    background-image:url(%%biggradient%%);
+    background-position:bottom left;
+    background-repeat:repeat-x;
+    background-color:#f0f7fe!important;
+}
+
+.footer .col {
+    border-left:1px solid #5F99CF;
+}
+
+.flat-vert.title {
+    border-bottom:1px solid #5F99CF;
+}
+
+/* style boxes in .side */
+.sidecontentbox h1 {
+    background-color:#f0f7fe!important;
+    font-weight:bold;
+    font-size:11px;
+    color:#336699;
+    padding: 2px 5px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+    -webkit-border-top-left-radius:4px;
+    -webkit-border-top-right-radius:4px;
+    border:1px solid #5F99CF;
+}
+
+.sidecontentbox h1:hover {
+    background-color:#b1cce8!important;
+}
+
+.sidecontentbox .helplink {
+    padding-right:5px;
+}
+
+.sidecontentbox .helplink:before {
+    content:"don't ";
+}
+
+.sidecontentbox .content {
+    border:none;
+    border-left:1px solid #5F99CF;
+    border-bottom:1px solid #5F99CF;
+    border-right:1px solid #5F99CF;
+}
+
+/*up boats down boats text */
+.linkinfo .upvotes .word {
+    font-size:0;
+}
+
+.linkinfo .upvotes:after {
+    content:"upghosts";
+}
+
+.linkinfo .downvotes .word {
+    font-size:0;
+}
+
+.linkinfo .downvotes:after {
+    content:"downghosts";
+}
+
+.linkinfo .score .number:after {
+    content:" strokes";
+    font-size:15px;
+}
+
+.linkinfo .score .word {
+    display:none;
+}
+
+.linkinfo {
+    -moz-border-radius:4px!important;
+    -webkit-border-radius:4px!important;
+    border:1px solid #5F99CF!important;
+    background-image:url(%%biggradient%%)!important;
+    background-position:center left!important;
+    background-repeat:repeat-x!important;
+    background-color:#f0f7fe!important;
+}
+
+/* text on the submit page*/
+#link-desc:after, #text-desc:after {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+    content: "Link to what you're making fun of or self-post. Do not link to random things. If you're making fun of /r/circlejerk, take it to /r/metacirclejerk. If you're making fun of /r/metacirclejerk, take it to /r/metametacirclejerk. Label NSFW links OR BE IMMEDIATELY BANISHED.";
+}
+
+/* =====replace arrows===== */
+.arrow.up {
+    background-image: url(%%ghost%%);
+    background-position: -2px -2px;
+    width: 14px; height: 13px;
+}
+.arrow.upmod {
+    background-image: url(%%ghost%%);
+    background-position: -20px -2px;
+    width: 14px; height: 13px;
+}
+
+.arrow.down {
+    background-image: url(%%ghost%%);
+    background-position: -2px -20px;
+    width: 14px; height: 13px;
+}
+.arrow.downmod {
+    background-image: url(%%ghost%%);
+    background-position: -20px -20px;
+    width: 14px; height: 13px;
+}
+
+/* hide comment downvotes */
+.commentarea .arrow.downmod {display: none;}
+.commentarea .arrow.down {display: none;}
+
+/* hide number of downvotes */
+/* .linkinfo .downvotes {display:none;} */
+/* .score .word:before {content: 'million ';} */
+
+h2 {    font-size: 2em;
+    cursor: pointer;
+}
+
+h3 {    font-size: 3em;
+    cursor: pointer;
+}
+
+h4 {    font-size: 4em;
+    cursor: pointer;
+}
+
+/* footer image - thanks SubaruKayak ;) */
+.footer-parent {
+    height: 1000px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+    clear: both;
+    text-align: center;
+    width: 100%;
+    background-image: url(%%cjfooter-everything%%);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+/* side image - change top padding to image size*/
+/*.side {
+    padding-top: 305px;
+    background-image: url(%%T2WiT%%);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+}*/
+
+/* NSFW tag */
+acronym:after {
+    content: "?";
+}
+
+/* image in background, appears to follow up & down scrolls, gets annoying very quickly */
+/* body {
+    background: url(%%att3%%) no-repeat fixed 50% 50%;
+} */
+
+/* playing with pictures */
+/* #siteTable_t3_ak14k {
+    background-image: url(%%awesome-face%%);
+    background-repeat: repeat-y;
+} */
+
+
+/* Custom subreddit age */
+.age {
+    display: none;
+}
+.titlebox .bottom:before {
+    display: block;
+    content: "an anarchy for 9 years";
+    float: right;
+}
+
+/* hover selections */
+
+#siteTable .link {
+    position:relative;
+    overflow:hidden;
+    border: 1px solid #cacaca;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+#siteTable .link.even {
+    background-color:#fafafa;
+}
+
+#siteTable .link.odd {
+    background-color:#f4f4f4;
+}
+
+#siteTable .link:hover {
+    background-image:url(%%header-gradient%%);
+    background-position:bottom left;
+    background-repeat:repeat-x;
+    background-color:#e6f3fd!important;
+}
+
+#siteTable .link:hover .title {
+    color:#336699;
+}
+
+/* fix comments and recently viewed links to only show upvote */
+.commentarea .arrow.upmod,
+.commentarea .arrow.up,
+.gadget .arrow.upmod,
+.gadget .arrow.up {
+    height:15px;
+}
+
+
+/* request colour */
+.title[href*="/request_"]:link {
+    color: green;
+}
+
+.title[href*="/request_"]:visited {
+    color: #006400 !important;
+}
+
+
+/* submit spam to be promoted */
+.sidebox.submit .morelink a {
+    position: absolute;
+    top: 0;
+    font-size: 0; /* reddit should allow color: transparent; but it doesn't */
+}
+
+.sidebox.submit .morelink:before {
+    display: block;
+    clear: none;
+    content: "Submit spam to be promoted";
+    text-align: center;
+    color: #369;
+    width: 100%;
+}
+
+.sidebox.submit .morelink:hover:before {
+    color: white;
+}
+
+.sidebox.submit .spacer {
+    cursor: text;
+}
+
+.titlebox .bottom, .sidecontentbox .content:nth-child(3) {
+    cursor: pointer;
+}
+
+
+/* For people who use ` ` to leave an empty comment */
+code:empty:before {
+    font-family: sans-serif;
+    content: "I have nothing to say.";
+}
+
+
+/* spoilers: [spoiler text](//#spoiler) */
+a[href="//#spoiler"] {
+    cursor:default;
+    background-image:none;
+    background: black;
+    color: black;
+    font-size: 13px;
+    padding:0;
+}
+
+a[href="//#spoiler"]:before {
+    color: white;
+    content:"Spoiler! ";
+}
+
+a[href="//#spoiler"]:hover {
+    background: transparent;
+}
+
+a[href="//#spoiler"]:hover:before {
+    color:red;
+}
+
+
+/* Make recently viewed links box say "RECENTLY VIEWED LINKS ADDED TO FBI DATABASE"
+   This also affects the admin box, but normal users will never see that. */
+
+.sidecontentbox h1:first-child:after {
+    content: " ADDED TO FBI DATABASE";
+}
+
+/* only apply compensated to the moderators box */
+
+.sidecontentbox h1:not(:first-child):before {
+    content: "COMPENSATED ";
+}
+
+
+/* verify links on a post-by-post basis */
+.id-t3_aid6f .title:after {
+    content: url(%%star%%);
+} 
+
+/* breaking news icon for reddit onion articles
+    rhfan: just use commas instead of a new entry for each one -yt*/
+.id-t3_bahf0 .title:before,
+.id-t3_be01d .title:before,
+.id-t3_bh3x5 .title:before,
+.id-t3_bka8d .title:before,
+.id-t3_bmym1 .title:before,
+.id-t3_c8fqf .title:before
+ {
+    content: url(%%breaking-news%%);
+}
+
+
+/* header magic */
+
+/* #header-img:hover {
+    background-image: url(%%hoverlogos%%);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 0;
+    height: 0;
+    padding-left: 120px;
+    padding-bottom: 40px;
+}
+
+#header-img:active {
+    background-position: 0 -40px;
+} */
+
+/* append to a post */
+.id-t3_ab1cd a.title:after {
+    content:'DISREGARD THAT I SUCK COCKS.'; 
+    color: orangered;
+}
+
+/* pi!
+.entry .tagline .author:after {
+    color:#888888!important; 
+    font-size:x-small!
+    important;content:" ["url(%%pi%%)"]";
+}
+.comment .author:after {
+    color:#888888!important; 
+    font-size:x-small!important;
+    content:" ["url(%%pi%%)"]";
+}
+.entry .tagline .recent-trophywinner:after {
+    content:"";
+} */
+
+
+/*.author[href$="/radiohead_fan123"]:after,
+.author[href$="/Sephr"]:after,*/
+.author[href$="/elephantorgy"]:after,
+.author[href$="/DivineJustice"]:after,
+.author[href$="/ChokingVictim"]:after,
+.author[href$="/AlternativeTaken"]:after,
+.author[href$="/ABsynth808"]:after,
+.author[href$="/IgnatiousReilly"]:after,
+.author[href$="/nopjunkie"]:after,
+.author[href$="/jimmick"]:after,
+.author[href$="/Psychomedic"]:after,
+.author[href$="/soupjavelin"]:after,
+.author[href$="/Imwidyah"]:after,
+.author[href$="/klarth"]:after,
+.author[href$="/xcyez"]:after,
+.author[href$="/spatchcock"]:after,
+.author[href$="/libbrichus"]:after,
+.author[href$="/GodOfAtheism"]:after,
+.author[href$="/jerrygofixit"]:after,
+.author[href$="/psykulor"]:after,
+.author[href$="/ZoidbergMD"]:after,
+.author[href$="/bapppppppppp"]:after,
+.author[href$="/P-Dub"]:after,
+.author[href$="/weblypistol"]:after,
+.author[href$="/ShyGuysOnStilts"]:after,
+.author[href$="/Champington"]:after,
+.author[href$="/lovesthetrees"]:after,
+.author[href$="/sandrc2002"]:after,
+.author[href$="/77ScuMBag77"]:after,
+.author[href$="/CheapyPipe"]:after,
+.author[href$="/jamt9000"]:after,
+.author[href$="/daniel2009"]:after,
+.author[href$="/gliscameria"]:after,
+.author[href$="/tia-maria"]:after,
+.author[href$="/chromakode"]:after,
+.author[href$="/hueypriest"]:after,
+.author[href$="/MrGrim"]:after,
+.author[href$="/LinuxFreeOrDie"]:after,
+.author[href$="/SubaruKayak"]:after,
+.author[href$="/Cheapy"]:after,
+.author[href$="/rednukleus"]:after,
+.author[href$="/Bornhuetter"]:after,
+.author[href$="/nopjunkie"]:after,
+.author[href$="/modemuser"]:after {
+    cursor:default;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin:0 2px;
+    width: 20px;
+    height: 16px;
+    content:"";
+    background-image: url(%%cjsprites%%);
+    background-position: -195px -149px;
+}
+
+.author[href$="/year1918"]:after {
+    cursor:default;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin:0 2px;
+    width: 50px;
+    height: 69px;
+    content:"";
+    background-image: url(%%wolf%%);
+}
+
+
+/* GOLD SUBMISSIONS! */
+/*.id-t3_c28an .author:after, #siteTable_t3_c28an .author:after {
+    padding-left: 3px;
+    content: url(%%gold-logo%%);
+}*/
+
+
+
+/* add a tab (just make a list in subreddit description */
+.titlebox .usertext-body .md ul li {
+    position:absolute;
+    top:-186px;
+    right:210px;
+    font-size:7px;
+    font-weight:bold;
+    letter-spacing:-1px;
+    background-color: transparent;
+    color:#41301e;
+    list-style-type:none;
+}
+
+
+/* DAE HATE REPOSTS? I SURE DO */
+/*.entry > .title > a {
+    display:none;
+}
+
+.domain:before {
+    color:blue;
+    font-size:medium;
+    font-weight:normal;
+    margin-bottom:1px;
+    content:"Did anyone else see what the admins just wrote all over /r/circlejerk?? ";
+}*/
+
+
+/* change submitter names */
+.entry > .tagline > .author {
+    visibility:hidden;
+}
+
+.entry > .tagline > .userattrs {
+    display:none;
+}
+
+.entry > .tagline > .author[href$="a"]:before,
+.entry > .tagline > .author[href$="A"]:before,
+.entry > .tagline > .author[href$="b"]:before,
+.entry > .tagline > .author[href$="B"]:before,
+.entry > .tagline > .author[href$="c"]:before,
+.entry > .tagline > .author[href$="C"]:before,
+.entry > .tagline > .author[href$="e"]:before,
+.entry > .tagline > .author[href$="E"]:before,
+.entry > .tagline > .author[href$="f"]:before,
+.entry > .tagline > .author[href$="F"]:before {
+    content:"I_RAPE_CATS";
+    visibility:visible;
+    color:#336699;
+    font-weight:normal;
+}
+
+.entry > .tagline > .author[href$="g"]:before,
+.entry > .tagline > .author[href$="G"]:before,
+.entry > .tagline > .author[href$="1"]:before,
+.entry > .tagline > .author[href$="2"]:before,
+.entry > .tagline > .author[href$="i"]:before,
+.entry > .tagline > .author[href$="I"]:before,
+.entry > .tagline > .author[href$="j"]:before,
+.entry > .tagline > .author[href$="J"]:before,
+.entry > .tagline > .author[href$="r"]:before,
+.entry > .tagline > .author[href$="R"]:before {
+    content:"Saydrah";
+    visibility:visible;
+    color:#336699;
+    font-weight:normal;
+}
+
+
+.entry > .tagline > .author[href$="3"]:before,
+.entry > .tagline > .author[href$="4"]:before,
+.entry > .tagline > .author[href$="5"]:before,
+.entry > .tagline > .author[href$="6"]:before,
+.entry > .tagline > .author[href$="7"]:before,
+.entry > .tagline > .author[href$="8"]:before,
+.entry > .tagline > .author[href$="9"]:before,
+.entry > .tagline > .author[href$="0"]:before,
+.entry > .tagline > .author[href$="t"]:before,
+.entry > .tagline > .author[href$="T"]:before,
+.entry > .tagline > .author[href$="d"]:before,
+.entry > .tagline > .author[href$="D"]:before
+ {
+    content:"grandpawiggly";
+    visibility:visible;
+    color:#336699;
+    font-weight:normal;
+}
+
+.entry > .tagline > .author[href$="h"]:before,
+.entry > .tagline > .author[href$="H"]:before,
+.entry > .tagline > .author[href$="k"]:before,
+.entry > .tagline > .author[href$="K"]:before,
+.entry > .tagline > .author[href$="l"]:before,
+.entry > .tagline > .author[href$="L"]:before,
+.entry > .tagline > .author[href$="m"]:before,
+.entry > .tagline > .author[href$="M"]:before,
+.entry > .tagline > .author[href$="n"]:before,
+.entry > .tagline > .author[href$="N"]:before {
+    content:"MrOhHai";
+    visibility:visible;
+    color:#336699;
+    font-weight:normal;
+}
+
+.entry > .tagline > .author[href$="o"]:before,
+.entry > .tagline > .author[href$="O"]:before,
+.entry > .tagline > .author[href$="p"]:before,
+.entry > .tagline > .author[href$="P"]:before,
+.entry > .tagline > .author[href$="q"]:before,
+.entry > .tagline > .author[href$="Q"]:before,
+.entry > .tagline > .author[href$="s"]:before,
+.entry > .tagline > .author[href$="S"]:before,
+.entry > .tagline > .author[href$="u"]:before,
+.entry > .tagline > .author[href$="U"]:before,
+.entry > .tagline > .author[href$="v"]:before,
+.entry > .tagline > .author[href$="V"]:before,
+.entry > .tagline > .author[href$="w"]:before,
+.entry > .tagline > .author[href$="W"]:before,
+.entry > .tagline > .author[href$="x"]:before,
+.entry > .tagline > .author[href$="X"]:before,
+.entry > .tagline > .author[href$="y"]:before,
+.entry > .tagline > .author[href$="Y"]:before,
+.entry > .tagline > .author[href$="z"]:before,
+.entry > .tagline > .author[href$="Z"]:before {
+    content:"bozarking";
+    visibility:visible;
+    color:#336699;
+    font-weight:normal;
+}
+
+/* transparency fixes */
+.titlebox form.toggle {
+    background-color:transparent;
+    font-size:70%;
+}
+
+.titlebox form.leavemoderator-button {
+    background-image:url(%%star%%);
+    background-position:0 0;
+}
+
+.expando-button.selftext.collapsed {
+    background-color:transparent!important;
+}
+
+/* mess with real sponsored links */
+/* .sponsored-tagline {
+    font-size:0;
+}
+
+.sponsored-tagline:after {
+    font-size:x-small;
+    content:"cleverly-disguised spam";
+}*/
+
+.link.promotedlink.promoted.thing .title .domain a {
+    font-size:0;
+    letter-spacing:-1px;
+    color:#EFF7FF!important;
+}
+
+.link.promotedlink.promoted .domain a:after {
+    font-size:x-small;
+    letter-spacing:0px;
+    content:"lemonparty.org";
+    color:#2E8FCC!important;
+}
+
+/*.link.promotedlink.promoted img {
+    display:none;
+}
+
+.link.promotedlink.promoted .thumbnail {
+    width:75px;
+    height:68px;
+    background-image:url(%%trollshade%%);
+    background-position: 0 0;
+    background-repeat:no-repeat;
+} */
+
+
+
+/* let's make the spam queue not look like an eyesore -yt */
+.thing.spam, .thing.reported {
+    background:transparent!important;
+    border:none!important; /*undo sponsored link border*/
+    border-left:3px solid red!important;
+    border-bottom:1px solid red!important;
+}
+
+.thing.spam:hover, .thing.reported:hover {
+    background-color:lightgray!important;
+    border:none!important; /*undo sponsored link border*/
+    border-left:3px solid black!important;
+    border-bottom:1px solid black!important;
+}
+
+.thing.spam a.title:after {
+    display: inline-block;
+    background-color:red;
+    margin:0 2px;
+    padding: 0 2px;
+    content:"SPAM";
+    color:white;
+    font-weight:bold;
+    font-size:80%;
+}
+
+
+
+
+
+
+/* you know the rules */
+/*.usertext {
+    position:static;
+}
+
+#sr-header-area {z-index:105;}
+
+.side a[href="http://www.youtube.com/watch?v=oHg5SJYRHA0"] {
+    display:block;
+    background-image: url(%%hoverlogos2%%);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size:0;
+    text-indent:-9999px;
+    overflow:hidden;
+    position:absolute;
+    top:21px;
+    left:0px;
+    width:120px;
+    height:40px;
+    z-index:101;
+    padding:0;
+}
+
+.side a[href="http://www.youtube.com/watch?v=oHg5SJYRHA0"]:hover{
+    background-position: 0 -40px;
+}
+
+.side a[href="http://www.youtube.com/watch?v=oHg5SJYRHA0"]:active {
+    background-position: 0 -80px;
+}
+
+.side .usertext-body .md {
+    overflow:hidden;
+} */
+
+
+
+
+/* mst3k */
+.side .titlebox a[href="///#mst3k"] {
+    display:block;
+    background-image: url(%%mst3k%%);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    font-size:0;
+    text-indent:-9999px;
+    overflow:hidden;
+    position:fixed;
+    bottom:-10px;
+    left:0px;
+    height:90px;
+    width:2199px;
+    z-index:1500;
+    padding: 0;
+}
+
+.side .titlebox ul {
+    display:block;
+    background-image: url(%%mst3k%%);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    font-size:0;
+    text-indent:-9999px;
+    overflow:hidden;
+    position:fixed;
+    bottom:-10px;
+    left:0px;
+    height:90px;
+    width:2199px;
+    z-index:1500;
+    padding: 0;
+}
+
+
+
+
+
+
+/*CJ Smilies by ytknows */
+
+/*set background and default properties*/
+a[href^="//#"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    background-position: -9999px -9999px;
+    margin:0 2px;
+}
+
+a[href="//#contra"]:before {
+    width: 17px;
+    height: 36px;
+    content:"";
+    background-position: 0px 0px;
+}
+
+a[href="//#1up"]:before {
+    width: 16px;
+    height: 7px;
+    content:"";
+    background-position: -18px -4px;
+}
+
+a[href="//#excitebike"]:before {
+    width: 19px;
+    height: 24px;
+    content:"";
+    background-position: -18px -12px;
+}
+
+a[href="//#pi"]:before {
+    width: 8px;
+    height: 8px;
+    content:"";
+    background-position: -35px -3px;
+}
+
+a[href="//#megaman"]:before {
+    width: 21px;
+    height: 24px;
+    content:"";
+    background-position: -38px -12px;
+}
+
+a[href="//#link"]:before {
+    width: 16px;
+    height: 32px;
+    content:"";
+    background-position: -60px -4px;
+}
+
+a[href="//#gay"]:before, a[href="//#ginsujim"]:before {
+    width: 19px;
+    height: 12px;
+    content:"";
+    background-position: -77px -3px;
+}
+
+a[href="//#abu"]:before {
+    width: 19px;
+    height: 20px;
+    content:"";
+    background-position: -77px -16px;
+}
+
+a[href="//#xwing"]:before {
+    width: 32px;
+    height: 19px;
+    content:"";
+    background-position: -97px -17px;
+}
+
+a[href="//#gizmo"]:before {
+    width: 32px;
+    height: 24px;
+    content:"";
+    background-position: -130px -12px;
+}
+
+a[href="//#spunky"]:before {
+    width: 25px;
+    height: 29px;
+    content:"";
+    background-position: -163px -7px;
+}
+
+a[href="//#duckhunt"]:before {
+    width: 29px;
+    height: 34px;
+    content:"";
+    background-position: -189px -2px;
+}
+
+a[href="//#pbj"]:before {
+    width: 25px;
+    height: 31px;
+    content:"";
+    background-position: -219px -5px;
+}
+
+a[href="//#upboat"]:before {
+    width: 15px;
+    height: 14px;
+    content:"";
+    background-position: -355px 0px;
+}
+
+a[href="//#upboat"]:hover:before {
+    width: 15px;
+    height: 14px;
+    content:"";
+    background-position: -245px -5px;
+}
+
+a[href="//#leftvote"]:before, a[href="//#sidevote"]:before {
+    width:15px;
+    height:15px;
+    content:"";
+    background-image: url(%%side-off%%);
+    background-position: 0px 0px;
+}
+
+a[href="//#leftvote"]:hover:before, a[href="//#sidevote"]:hover:before {
+    width:15px;
+    height:15px;
+    content:"";
+    background-image: url(%%side-on%%);
+    background-position: 0px 0px;
+}
+
+a[href="//#question"]:before {
+    width: 16px;
+    height: 16px;
+    content:"";
+    background-position: -245px -20px;
+}
+
+a[href="//#sonic"]:before {
+    width: 17px;
+    height: 27px;
+    content:"";
+    background-position: -262px -9px;
+}
+
+a[href="//#mario"]:before {
+    width: 16px;
+    height: 26px;
+    content:"";
+    background-position: -280px -10px;
+}
+
+a[href="//#krumm"]:before {
+    width: 32px;
+    height: 35px;
+    content:"";
+    background-position: -297px -1px;
+}
+
+a[href="//#kanye"]:before {
+    width: 24px;
+    height: 35px;
+    content:"";
+    background-position: -330px -1px;
+}
+
+a[href="//#cassette"]:before {
+    width: 31px;
+    height: 21px;
+    content:"";
+    background-position: -355px -15px;
+}
+
+a[href="//#stop"]:before {
+    width: 32px;
+    height: 32px;
+    content:"";
+    background-position: -387px -4px;
+}
+
+a[href="//#waiting"]:before {
+    width: 13px;
+    height: 22px;
+    content:"";
+    background-position: -420px -14px;
+}
+
+a[href="//#ceilingcat"]:before {
+    width: 57px;
+    height: 35px;
+    content:"";
+    background-position: -434px -1px;
+}
+
+a[href="//#vuvuzela"]:before {
+    width: 36px;
+    height: 32px;
+    content:"";
+    background-position: -492px -4px;
+}
+
+a[href="//#bp"]:before {
+    width: 36px;
+    height: 36px;
+    content:"";
+    background-position: -529px 0px;
+}
+
+a[href="//#yakko"]:before {
+    width: 31px;
+    height: 51px;
+    content:"";
+    background-position: 0px -37px;
+}
+
+a[href="//#zombie"]:before {
+    width: 27px;
+    height: 47px;
+    content:"";
+    background-position: -32px -41px;
+}
+
+a[href="//#ramirezhead"]:before {
+    width: 34px;
+    height: 38px;
+    content:"";
+    background-position: -60px -50px;
+}
+
+a[href="//#alien"]:before {
+    width: 32px;
+    height: 40px;
+    content:"";
+    background-position: -95px -48px;
+}
+
+a[href="//#trees"]:before {
+    width: 25px;
+    height: 21px;
+    content:"";
+    background-position: -128px -42px;
+}
+
+a[href="//#triforce"]:before {
+    width: 25px;
+    height: 24px;
+    content:"";
+    background-position: -128px -64px;
+}
+
+a[href="//#narwhal"]:before {
+    width: 29px;
+    height: 48px;
+    content:"";
+    background-position: -154px -40px;
+}
+
+a[href="//#digg"]:before {
+    width: 41px;
+    height: 48px;
+    content:"";
+    background-position: -184px -40px;
+}
+
+a[href="//#doubledragon"]:before {
+    width: 16px;
+    height: 38px;
+    content:"";
+    background-position: -226px -50px;
+}
+
+a[href="//#zoidberg"]:before {
+    width: 48px;
+    height: 39px;
+    content:"";
+    background-position: -243px -49px;
+}
+
+a[href="//#thatguy"]:before {
+    width: 38px;
+    height: 39px;
+    content:"";
+    background-position: -292px -49px;
+}
+
+a[href="//#beavis"]:before {
+    width: 27px;
+    height: 50px;
+    content:"";
+    background-position: -331px -38px;
+}
+
+a[href="//#indy"]:before {
+    width: 15px;
+    height: 51px;
+    content:"";
+    background-position: -359px -37px;
+}
+
+a[href="//#capn"]:before {
+    width: 44px;
+    height: 41px;
+    content:"";
+    background-position: -375px -47px;
+}
+
+a[href="//#staypuft"]:before {
+    width: 42px;
+    height: 51px;
+    content:"";
+    background-position: -420px -37px;
+}
+
+a[href="//#foxnews"]:before {
+    width: 48px;
+    height: 45px;
+    content:"";
+    background-position: -463px -43px;
+}
+
+a[href="//#shoopdawhoop"]:before {
+    width: 33px;
+    height: 51px;
+    content:"";
+    background-position: -512px -37px;
+}
+
+a[href="//#epicfailguy"]:before {
+    width: 16px;
+    height: 51px;
+    content:"";
+    background-position: -546px -37px;
+}
+
+a[href="//#shang"]:before {
+    width: 60px;
+    height: 133px;
+    content:"";
+    background-position: 0px -89px;
+}
+
+a[href="//#plucky"]:before {
+    width: 23px;
+    height: 40px;
+    content:"";
+    background-position: -61px -89px;
+}
+
+a[href="//#lemming"]:before {
+    width: 20px;
+    height: 37px;
+    content:"";
+    background-position: -85px -89px;
+}
+
+a[href="//#hand"]:before {
+    width: 24px;
+    height: 43px;
+    content:"";
+    background-position: -106px -89px;
+}
+
+a[href="//#discoball"]:before {
+    width: 28px;
+    height: 48px;
+    content:"";
+    background-position: -131px -89px;
+}
+
+a[href="//#finishhim"]:before {
+    width: 135px;
+    height: 19px;
+    content:"";
+    background-position: -160px -89px;
+}
+
+a[href="//#king"]:before {
+    width: 21px;
+    height: 30px;
+    content:"";
+    background-position: -160px -109px;
+}
+
+a[href="//#busey"]:before {
+    width: 25px;
+    height: 30px;
+    content:"";
+    background-position: -182px -109px;
+}
+
+a[href="//#coco"]:before {
+    width: 21px;
+    height: 30px;
+    content:"";
+    background-position: -208px -109px;
+}
+
+a[href="//#obama"]:before {
+    width: 22px;
+    height: 30px;
+    content:"";
+    background-position: -230px -109px;
+}
+
+a[href="//#cookiemonster"]:before {
+    width: 34px;
+    height: 30px;
+    content:"";
+    background-position: -253px -109px;
+}
+
+a[href="//#coffee"]:before {
+    width: 24px;
+    height: 31px;
+    content:"";
+    background-position: -296px -89px;
+}
+
+a[href="//#quagmire"]:before {
+    width: 27px;
+    height: 30px;
+    content:"";
+    background-position: -321px -89px;
+}
+
+a[href="//#thebrain"]:before {
+    width: 48px;
+    height: 30px;
+    content:"";
+    background-position: -349px -89px;
+}
+
+a[href="//#tobias"]:before {
+    width: 26px;
+    height: 30px;
+    content:"";
+    background-position: -398px -89px;
+}
+
+
+a[href="//#iliketurtles"]:before {
+    width: 23px;
+    height: 30px;
+    content:"";
+    background-position: -425px -89px;
+}
+
+a[href="//#muhammad"]:before {
+    width: 32px;
+    height: 41px;
+    content:"";
+    background-position: -292px -121px;
+}
+
+
+a[href="//#billymays"]:before {
+    width: 31px;
+    height: 41px;
+    content:"";
+    background-position: -325px -120px;
+}
+
+a[href="//#orly"]:before {
+    width: 45px;
+    height: 41px;
+    content:"";
+    background-position: -357px -120px;
+}
+
+a[href="//#spam"]:before {
+    width: 46px;
+    height: 39px;
+    content:"";
+    background-position: -403px -120px;
+}
+
+a[href="//#poop"]:before {
+    width: 43px;
+    height: 41px;
+    content:"";
+    background-position: -450px -120px;
+}
+
+a[href="//#zach"]:before {
+    width: 28px;
+    height: 41px;
+    content:"";
+    background-position: -494px -120px;
+}
+
+a[href="//#cops"]:before {
+    width: 66px;
+    height: 82px;
+    content:"";
+    background-position: -61px -140px;
+}
+
+a[href="//#robocop"]:before {
+    width: 34px;
+    height: 75px;
+    content:"";
+    background-position: -128px -147px;
+}
+
+a[href="//#yoshiegg"]:before {
+    width: 14px;
+    height: 15px;
+    content:"";
+    background-position: -163px -150px;
+}
+
+a[href="//#facebook"]:before {
+    width: 16px;
+    height: 16px;
+    content:"";
+    background-position: -178px -149px;
+}
+
+a[href="//#square"]:before {
+    width: 20px;
+    height: 16px;
+    content:"";
+    background-position: -195px -149px;
+}
+
+a[href="//#poohboat"]:before {
+    width: 58px;
+    height: 56px;
+    content:"";
+    background-position: -163px -166px;
+}
+
+a[href="//#owlcat"]:before {
+    width: 69px;
+    height: 65px;
+    content:"";
+    background-position: -222px -157px;
+}
+
+a[href="//#eagercat"]:before {
+    width: 20px;
+    height: 22px;
+    content:"";
+    background-position: -292px -174px;
+}
+
+a[href="//#nickelback"]:before {
+    width: 21px;
+    height: 23px;
+    content:"";
+    background-position: -313px -173px;
+}
+
+a[href="//#delorean"]:before {
+    width: 51px;
+    height: 24px;
+    content:"";
+    background-position: -335px -172px;
+}
+
+a[href="//#blinky"]:before {
+    width: 37px;
+    height: 28px;
+    content:"";
+    background-position: -387px -172px;
+}
+
+a[href="//#money"]:before {
+    width: 59px;
+    height: 25px;
+    content:"";
+    background-position: -292px -197px;
+}
+
+a[href="//#shark"]:before {
+    width: 48px;
+    height: 21px;
+    content:"";
+    background-position: -352px -201px;
+}
+
+a[href="//#amberlamps"]:before {
+    width: 31px;
+    height: 18px;
+    content:"";
+    background-position: -401px -204px;
+}
+
+a[href="//#boredonamonday"]:before, a[href="//#puredemo"]:before, a[href="//#crybaby"]:before {
+    width: 46px;
+    height: 60px;
+    content:"";
+    background-position: -433px -162px;
+}
+
+a[href="//#awesome"]:before {
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: 0px -223px;
+}
+
+a[href="//#happy"]:before {
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -26px -223px;
+}
+
+a[href="//#sad"]:before {
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -52px -223px;
+}
+
+a[href="//#omy"]:before {
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -78px -223px;
+}
+
+a[href="//#lod"]:before {
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -104px -223px;
+}
+
+a[href="//#cat"]:before {
+    width: 25px;
+    height: 23px;
+    content:"";
+    background-position: -130px -223px;
+}
+
+a[href="//#heart"]:before {
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -156px -223px;
+}
+
+a[href="//#apple"]:before {
+    width: 20px;
+    height: 25px;
+    content:"";
+    background-position: -182px -223px;
+}
+
+a[href="//#hitler"]:before {
+    width: 19px;
+    height: 25px;
+    content:"";
+    background-position: -203px -223px;
+}
+
+a[href="//#chaplin"]:before {
+    width: 23px;
+    height: 25px;
+    content:"";
+    background-position: -223px -223px;
+}
+
+a[href="//#trollface"]:before {
+    width: 31px;
+    height: 25px;
+    content:"";
+    background-position: -247px -223px;
+}
+
+a[href="//#sir"]:before {
+    width: 19px;
+    height: 25px;
+    content:"";
+    background-position: -279px -223px;
+}
+
+a[href="//#ogc"]:before {
+    width: 9px;
+    height: 25px;
+    content:"";
+    background-position: -299px -223px;
+}
+
+a[href="//#thedude"]:before {
+    width: 26px;
+    height: 25px;
+    content:"";
+    background-position: -309px -223px;
+}
+
+a[href="//#bacon"]:before {
+    width: 16px;
+    height: 25px;
+    content:"";
+    background-position: -336px -223px;
+}
+
+a[href="//#atheist"]:before {
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -353px -223px;
+}
+
+a[href="//#rage"]:before {
+    width: 32px;
+    height: 25px;
+    content:"";
+    background-position: -379px -223px;
+}
+
+a[href="//#fuckyea"]:before {
+    width: 26px;
+    height: 25px;
+    content:"";
+    background-position: -412px -223px;
+}
+
+a[href="//#girl"]:before {
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -439px -223px;
+}
+
+a[href="//#betterthanexpected"]:before {
+    width: 31px;
+    height: 25px;
+    content:"";
+    background-position: -465px -223px;
+}
+
+a[href="//#epic"]:before {
+    width: 27px;
+    height: 19px;
+    content:"";
+    background-position: -497px -223px;
+}
+
+a[href="//#mariokart"]:before {
+    width: 30px;
+    height: 30px;
+    content:"";
+    background-position: 0px -249px;
+}
+
+a[href="//#luigikart"]:before {
+    width: 30px;
+    height: 31px;
+    content:"";
+    background-position: -31px -249px;
+}
+
+a[href="//#yoshikart"]:before {
+    width: 28px;
+    height: 31px;
+    content:"";
+    background-position: -62px -249px;
+}
+
+a[href="//#bowserkart"]:before {
+    width: 32px;
+    height: 31px;
+    content:"";
+    background-position: -91px -249px;
+}
+
+a[href="//#princesskart"]:before {
+    width: 28px;
+    height: 31px;
+    content:"";
+    background-position: -124px -249px;
+}
+
+a[href="//#windows"]:before {
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -153px -249px;
+}
+
+a[href="//#linux"]:before {
+    width: 25px;
+    height: 30px;
+    content:"";
+    background-position: -179px -249px;
+}
+
+a[href="//#freebsd"]:before {
+    width: 27px;
+    height: 29px;
+    content:"";
+    background-position: -205px -249px;
+}
+
+a[href="//#java"]:before {
+    width: 21px;
+    height: 29px;
+    content:"";
+    background-position: -233px -249px;
+}
+
+a[href="//#thepiratebay"]:before {
+    width: 28px;
+    height: 30px;
+    content:"";
+    background-position: -255px -249px;
+}
+
+a[href="//#clippy"]:before {
+    width: 32px;
+    height: 30px;
+    content:"";
+    background-position: -284px -249px;
+}
+
+
+a[href="//#lolwut"]:before {
+    width: 22px;
+    height: 30px;
+    content:"";
+    background-position: -317px -249px;
+}
+
+a[href="//#facepalm"]:before {
+    width: 50px;
+    height: 30px;
+    content:"";
+    background-position: -340px -249px;
+}
+
+a[href="//#pedobear"]:before {
+    width: 72px;
+    height: 133px;
+    content:"";
+    background-position: -1px -281px;
+}
+
+a[href="//#xkcd"]:before {
+    width: 23px;
+    height: 69px;
+    content:"";
+    background-position: -74px -281px;
+}
+
+a[href="//#koolaidman"]:before {
+    width: 72px;
+    height: 69px;
+    content:"";
+    background-position: -98px -281px;
+}
+
+a[href="//#homer"]:before {
+    width: 63px;
+    height: 70px;
+    content:"";
+    background-position: -171px -280px;
+}
+
+a[href="//#mccain"]:before {
+    width: 71px;
+    height: 70px;
+    content:"";
+    background-position: -235px -280px;
+}
+
+a[href="//#blackwolf72"]:before, a[href="//#whiteknight"]:before {
+    width: 74px;
+    height: 126px;
+    content:"";
+    background-position: -307px -280px;
+}
+
+a[href="//#keanu"]:before {
+    width: 120px;
+    height: 77px;
+    content:"";
+    background-position: -382px -280px;
+}
+
+a[href="//#kennypowers"]:before {
+    width: 67px;
+    height: 63px;
+    content:"";
+    background-position: -74px -351px;
+}
+
+a[href="//#cp"]:before {
+    width: 29px;
+    height: 63px;
+    content:"";
+    background-position: -142px -351px;
+}
+
+a[href="//#fap"]:before {
+    width: 30px;
+    height: 40px;
+    content:"";
+    background-position: -172px -362px;
+}
+
+a[href="//#fap"]:hover:before {
+    width: 30px;
+    height: 40px;
+    content:"";
+    background-position: -172px -351px;
+}
+
+a[href="//#technoviking"]:before {
+    width: 39px;
+    height: 51px;
+    content:"";
+    background-position: -203px -351px;
+}
+
+a[href="//#chubbles"]:before {
+    width: 63px;
+    height: 37px;
+    content:"";
+    background-position: -243px -351px;
+}
+
+
+/* using reddit static images */
+a[href="//#orangered"]:before {
+    width: 15px;
+    height: 10px;
+    content:"";
+    background-image:url(/static/mailgray.png);
+    background-position: top left;
+}
+
+a[href="//#orangered"]:hover:before {
+    width: 15px;
+    height: 10px;
+    content:"";
+    background-image:url(/static/mail.png);
+    background-position: top left;
+}
+
+
+
+/* advice generators */
+a[href="//#ducreux"] {
+    width:300px!important;
+    height:400px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 0!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#ducreux"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#ducreux"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#successfulnegro"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -400px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#successfulnegro"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#successfulnegro"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#awkwardpenguin"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -700px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:'Comic Sans','Comic Sans MS',sans-serif!important;
+    font-size:19px!important;
+    line-height:20px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#awkwardpenguin"] em {
+    font-style:normal!important;
+    font-weight:bold!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#awkwardpenguin"] strong {
+    font-weight:bold!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#philosoraptor"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -1000px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#philosoraptor"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#philosoraptor"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#couragewolf"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -1300px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#couragewolf"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#couragewolf"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+/*div.side > div.spacer > div.sidecontentbox, div#moderator-table {display:none;}*/
+
+a[href="//#advicedog"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -1600px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#advicedog"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#advicedog"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#bachelorfrog"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -2200px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#bachelorfrog"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#bachelorfrog"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#typicalredditor"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -2500px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#typicalredditor"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#typicalredditor"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#musicallyoblivious"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -2800px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#musicallyoblivious"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:19px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+    font-size:40px!important;
+}
+
+a[href="//#musicallyoblivious"] code {
+    font-family:Impact,sans-serif!important;
+    font-style:normal!important;
+    position:absolute!important;
+    top:20px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#musicallyoblivious"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#insanitywolf"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -3100px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#insanitywolf"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#insanitywolf"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#redditadmin"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -3400px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#redditadmin"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#redditadmin"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#ramirez"] {
+    width:300px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicemacros%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -1900px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#ramirez"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:19px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+    font-size:52px!important;
+}
+
+a[href="//#ramirez"] code {
+    font-family:Impact,sans-serif!important;
+    font-style:normal!important;
+    font-size:130%!important;
+    position:absolute!important;
+    top:20px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#ramirez"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#magnets"] {
+    width:540px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicesprites2%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 0!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:25px!important;
+    line-height:24px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#magnets"] em {
+    font-style:normal!important;
+    font-size:200%!important;
+    position:absolute!important;
+    bottom:50px!important;
+    width:500px!important;
+    left:50%!important;
+    margin-left:-260px!important;
+}
+
+a[href="//#magnets"] strong {
+    font-weight:normal!important;
+    font-size:100%;
+    position:absolute!important;
+    bottom:10px!important;
+    width:500px!important;
+    left:50%!important;
+    margin-left:-260px!important;
+}
+
+a[href="//#yodawg"] {
+    width:450px!important;
+    height:300px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicesprites2%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -300px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:20px!important;
+    line-height:22px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#yodawg"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:420px!important;
+    left:50%!important;
+    margin-left:-210px!important;
+}
+
+a[href="//#yodawg"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:420px!important;
+    left:50%!important;
+    margin-left:-210px!important;
+}
+
+a[href="//#clarinetkid"] {
+    width:300px!important;
+    height:412px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicesprites2%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -600px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:20px!important;
+    line-height:22px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#clarinetkid"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#clarinetkid"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#yuno"] {
+    width:300px!important;
+    height:225px!important;
+    cursor:default!important;
+    display: inline-block!important;
+    background-image:url(%%advicesprites2%%)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 -1012px!important;
+    text-align:center!important;
+    color:white!important;
+    font-family:Impact,sans-serif!important;
+    font-size:18px!important;
+    line-height:19px!important;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black!important;
+    overflow:hidden!important;
+    position:relative!important;
+    text-transform:uppercase!important;
+}
+
+a[href="//#yuno"] em {
+    font-style:normal!important;
+    position:absolute!important;
+    top:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+a[href="//#yuno"] strong {
+    font-weight:normal!important;
+    position:absolute!important;
+    bottom:12px!important;
+    width:280px!important;
+    left:50%!important;
+    margin-left:-140px!important;
+}
+
+
+
+
+
+/*hide empty ones*/
+/* commented out because chrome/safari don't understand :empty
+a[href="//#successfulnegro"]:empty,
+a[href="//#awkwardpenguin"]:empty,
+a[href="//#philosoraptor"]:empty,
+a[href="//#couragewolf"]:empty,
+a[href="//#ducreux"]:empty,
+a[href="//#advicedog"]:empty,
+a[href="//#ramirez"]:empty {
+    display:none!important;
+}*/
+
+
+/* New Triggers (uses smilies from above */
+/* IAMA triggers */
+.title[href*="iama_"]:before,
+.title[href*="i_am_a"]:before,
+.title[href*="_ama"]:before,
+.title[href*="_amaa"]:before {
+    content: url(%%star%%);
+    margin-right: 6px;
+}
+
+
+/* Trollface triggers */
+.title[href*="amiright"]:before,
+.title[href*="amirite"]:before,
+.title[href*="problem"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 31px;
+    height: 25px;
+    content:"";
+    background-position: -247px -223px;
+}
+
+
+/* upvote mods */
+.title[href*="upbote"]:before,
+.title[href*="upboat"]:before,
+.title[href*="upvote"]:before,
+.title[href*="up_vote"]:before,
+.title[href*="upvoet"]:before,
+.title[href*="up_voet"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 15px;
+    height: 14px;
+    content:"";
+    background-position: -245px -5px;
+}
+
+.title[href*="leftvote"]:before,
+.title[href*="sidevote"]:before {
+    width:15px;
+    height:15px;
+    content:"";
+    background-image: url(%%side-on%%);
+    background-position: 0px 0px;
+    cursor:default;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+
+/* Gary Busey triggers */
+.title[href*="busey"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 25px;
+    height: 30px;
+    content:"";
+    background-position: -182px -109px;
+}
+
+/* Atheism triggers */
+.title[href*="atheist"]:before,
+.title[href*="atheism"]:before,
+.title[href*="theism"]:before,
+.title[href*="theist"]:before,
+.title[href*="religion"]:before,
+.title[href*="god"]:before,
+.title[href*="jesus"]:before,
+.title[href*="christian"]:before,
+.title[href*="catholic"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -353px -223px;
+}
+
+/* Girl triggers */
+.title[href*="girl"]:before,
+.title[href*="boobs"]:before,
+.title[href*="vagoo"]:before,
+.title[href*="female"]:before,
+.title[href*="vagina"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -439px -223px;
+    margin-right: 6px;
+}
+
+/* FUUU Rage triggers */
+.title[href*="rage"]:before,
+.title[href*="fuuu"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 32px;
+    height: 25px;
+    content:"";
+    background-position: -379px -223px;
+}
+
+/* FUUU Happyface triggers */
+.title[href*="happy"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 31px;
+    height: 25px;
+    content:"";
+    background-position: -465px -223px;
+}
+
+
+/* heart triggers */
+.title[href*="love"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 25px;
+    height: 25px;
+    content:"";
+    background-position: -156px -223px;
+}
+
+/* zelda triggers */
+.title[href*="zelda"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 16px;
+    height: 32px;
+    content:"";
+    background-position: -60px -4px;
+}
+
+/* Hand triggers */
+.title[href*="wife"]:before,
+.title[href*="girlfriend"]:before,
+.title[href*="wief"]:before,
+.title[href*="fap"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 24px;
+    height: 43px;
+    content:"";
+    background-position: -106px -89px;
+}
+
+/* apple triggers */
+.title[href*="apple"]:before,
+.title[href*="ipod"]:before,
+.title[href*="steve_jobs"]:before,
+.title[href*="ipad"]:before,
+.title[href*="iphone"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 20px;
+    height: 25px;
+    content:"";
+    background-position: -182px -223px;
+}
+
+/* Monocle triggers */
+.title[href*="sir"]:before,
+.title[href*="gentlemen"]:before,
+.title[href*="gentleman"]:before,
+.title[href*="scholar"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 19px;
+    height: 25px;
+    content:"";
+    background-position: -279px -223px;
+}
+
+a[href*="geconsul"] {
+color:white;
+font-size:1px;
+}
+
+/* Lebowski triggers */
+.title[href*="lebowski"]:before,
+.title[href*="dude"]:before,
+.title[href*="coen"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 26px;
+    height: 25px;
+    content:"";
+    background-position: -309px -223px;
+}
+
+
+/* Hitler triggers */
+.title[href*="hitler"]:before,
+.title[href*="nazi"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 19px;
+    height: 25px;
+    content:"";
+    background-position: -203px -223px;
+}
+
+
+/* Epic triggers */
+.title[href*="epic"]:before 
+{
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 27px;
+    height: 19px;
+    content:"";
+    background-position: -497px -223px;
+}
+
+/* Bacon triggers */
+.title[href*="bacon"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 16px;
+    height: 25px;
+    content:"";
+    background-position: -336px -223px;
+}
+
+/* Narwhal triggers */
+.title[href*="narwhal"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 29px;
+    height: 48px;
+    content:"";
+    background-position: -154px -40px;
+}
+
+/* Obama triggers */
+.title[href*="obama"]:before,
+.title[href*="president"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 22px;
+    height: 30px;
+    content:"";
+    background-position: -230px -109px;
+}
+
+/* eager cat triggers */
+.title[href*="hey"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 20px;
+    height: 22px;
+    content:"";
+    background-position: -292px -174px;
+}
+
+/* Digg triggers */
+.title[href*="digg"]:before,
+.title[href*="kevin_rose"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 41px;
+    height: 48px;
+    content:"";
+    background-position: -184px -40px;
+}
+
+/* Nickelback triggers */
+.title[href*="nickelback"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 21px;
+    height: 23px;
+    content:"";
+    background-position: -313px -173px;
+}
+
+/* Conan triggers */
+.title[href*="conan"]:before,
+.title[href*="coco"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 21px;
+    height: 30px;
+    content:"";
+    background-position: -208px -109px;
+}
+
+/* Facebook triggers */
+.title[href*="facebook"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+    content:"";
+    background-position: -178px -149px;
+}
+
+/* question mark triggers */
+.title[href*="dae"]:before,
+.title[href*="how_do"]:before,
+.title[href*="how_come"]:before,
+.title[href*="why_do"]:before,
+.title[href*="how_many"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+    content:"";
+    background-position: -245px -20px;
+}
+
+
+/* vuvuzela triggers */
+.title[href*="vuvuzela"]:before,
+.title[href*="bzz"]:before,
+.title[href*="brr"]:before {
+    cursor:default;
+    display: inline-block;
+    background-image:url(%%cjsprites%%);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width: 36px;
+    height: 32px;
+    content:"";
+    background-position: -492px -4px;
+}
+
+/*trophy case*/
+.side .md table + p {
+    padding-top: 8px;
+}
+
+.side .usertext-body {
+    padding-top: 8px;
+    clear:both;
+}
+
+.side .md table {
+    margin:0;
+    width:297px;
+    border-style:none;
+    margin-left:2px;
+}
+
+.side .md tbody {
+    border:1px solid gray;
+    padding:5px;
+    background-color:#F5F5F5;
+    padding-bottom:20px;
+}
+
+.side .md th a[href="http://www.reddit.com/help/awards"] {
+    font-family:    verdana,arial,helvetica,sans-serif;
+    font-size:10px;
+    font-weight:400;
+    font-style:normal;
+    color:    #336699;
+}
+
+.side .md thead tr:first-child {
+    font-size:13px;
+    color: gray;
+}
+
+.side .md thead th {
+    text-align:left;
+    padding:0;
+    width:50%;
+}
+
+.side .md thead th ~ th {
+    text-align:right;
+}
+
+.side .md td, .side .md th {
+    border-style:none;
+    font-weight:normal;
+    padding:0;
+}
+
+.side .md thead td {
+    padding:0;
+}
+
+.side .md tbody tr:last-child td {
+    padding-bottom:20px;
+}
+
+.side .md tbody tr:first-child td {
+    padding-top:20px;
+}
+
+.side .md tbody tr:nth-child(1) em {
+    visibility:hidden;
+    font-size:40px;
+    line-height:40px;
+}
+
+.side a[href^="///#"]:before {
+    cursor:default;
+    display: inline-block;
+}
+
+.side a[href^="///#trophy1"]:before {
+    height:40px;
+    width:40px;
+    content:"";
+    background-image:url(%%trophy-overtheline%%);
+    background-position: 0 0;
+}
+
+.side a[href^="///#trophy2"]:before {
+    height:40px;
+    width:40px;
+    content:"";
+    background-image:url(%%redditplatinum%%);
+    background-position: 0 0;
+}
+
+.side .md tbody tr:nth-child(2), .side .md tbody tr:nth-child(2) a {
+    font-size:13px;
+    font-weight:400;
+    font-style:normal;
+    color:    #000000;
+    padding-bottom:0;
+}
+
+.side .md tbody tr:nth-child(3) {
+    font-size:10px;
+    color:#555555;
+    padding-top:0;
+}
+
+.side a[href="http://bit.ly/defcon"] {
+    display:inline-block;
+    width:195px;
+    height:26px;
+    background-image:url(%%fbconnect%%);
+}
+
+.md pre {
+    margin-bottom:0px;
+}
+
+.arrow.down:hover, .arrow.down:active {
+display:block;
+position:absolute;
+left:-100px;
+}
+
+sup sup sup sup:after {
+content:"I N C E P T I O N";
+}
+
+sup sup sup sup sup:after {
+content:"";
+}
+
+.titlebox .redditname:after {
+content:" is in RON PAUL MODE.";
+}
+
+
+/* end of css */
