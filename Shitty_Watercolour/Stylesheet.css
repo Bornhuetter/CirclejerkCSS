@@ -1,0 +1,65 @@
+#header { background-color:white; background-image:url(%%le%%); border-bottom:3px solid #000000; }
+#header ul.tabmenu li { width:195px !important; }
+#header ul.tabmenu li a { background-color:transparent; color:white; font-weight:bold !important;  }
+#header ul.tabmenu { background-color:black; top:5px; border-radius:2px;  }
+
+#search input { background-image:url(%%searchbg%%); border:0px !important; height:28px; background-color:transparent; background-repeat:no-repeat; }
+
+#sr-header-area { background-image:url(%%toplinkbg%%); }
+a.title { font-weight:bold !important; font-family:'Comic Sans MS'; color:black !important; text-transform:uppercase; }
+a.title:visited { font-weight:bold !important; font-family:'Comic Sans MS'; color:purple !important; }
+
+div.thing.link { background-image:url(%%linkbg%%); background-repeat:repeat-x; background-position:0px -3px; }
+/*Change vote arrows*/  
+.arrow.up { background-image: url(%%UpNotClicked%%); 
+background-position: 0px 0px; 
+height: 14px; width: 15px; 
+}
+.arrow.upmod { 
+background-image: url(%%UpClicked%%); 
+background-position: 0px 0px; 
+height: 14px; width: 15px;  
+}
+.arrow.down { background-image: url(%%DownNotClicked%%); 
+background-position: 0px 0px; 
+height: 14px; width: 15px; 
+}
+.arrow.downmod { 
+background-image: url(%%DownClicked%%); 
+background-position: 0px 0px; 
+height: 14px; width: 15px; 
+}
+
+
+.thumbnail.self { background-image:url(%%linkthumb%%); background-position:0px 0px; width:81px; height:65px; }
+.thumbnail.nsfw { background-image:url(%%nsfwthumb%%); background-position:0px 0px; width:85px; height:65px; }
+
+#mail.havemail { background-image:url(%%havemail%%); background-position:0px 0px; width:16px; height:13px; }
+#mail.nohavemail { background-image:url(%%nomail%%); background-position:0px 0px; width:16px; height:13px; }
+
+#modmail.havemail { background-image:url(%%mmy%%); background-position:0px 0px; width:15px; height:15px; }
+#modmail.nohavemail { background-image:url(%%mmno%%); background-position:0px 0px; width:15px; height:15px; }
+
+body {background-image:url(%%bg%%) !important; background-repeat:repeat; }
+.side {background-image:url(%%bg%%) !important; background-repeat:repeat; }
+
+li.rounded.nsfw-stamp.stamp acronym { border:none !important; background-color:transparent; background-image:url(%%nsfw%%); }
+
+div.expando-button { width:27px; height:28px; }
+div.expando-button.selftext.collapsed { background-position:0 0px; background-image:url(%%collapse%%); }
+div.expando-button.selftext.collapsed:hover { background-position:0 0px; background-image:url(%%collapsehover%%); }
+
+div.expando-button.selftext.expanded { background-position:0 0px; background-image:url(%%expand%%); }
+div.expando-button.selftext.expanded:hover { background-position:0 0px; background-image:url(%%expandhover%%); }
+
+a[href="/dolan"]:after { width:56px;height:58px; background-image:url(%%dolan%%); content:""; display:inline-block; }
+a[href="/gooby"]:after { width:107px;height:99px; background-image:url(%%gooby%%); content:""; display:inline-block; }
+a[href="/notbad"]:after { width:75px;height:110px; background-image:url(%%obama%%); content:""; display:inline-block; }
+a[href="/fu"]:after { width:55px;height:64px; background-image:url(%%rage%%); content:""; display:inline-block; }
+a[href="/foreveralone"]:after { width:72px;height:92px; background-image:url(%%alone%%); content:""; display:inline-block; }
+a[href="/pruto"]:after { width:86px;height:92px; background-image:url(%%pruto%%); content:""; display:inline-block; }
+a[href="/megusta"]:after { width:88px;height:101px; background-image:url(%%gusta%%); content:""; display:inline-block; }
+a[href="/troll"]:after { width:65px;height:65px; background-image:url(%%umad%%); content:""; display:inline-block; }
+a[href="/fuckyeah"]:after { width:63px;height:79px; background-image:url(%%fuckyeah%%); content:""; display:inline-block; }
+
+a[href="/this"]:after { position:relative; z-index:999; width:333px; height:218px; background-image:url(%%this%%); content:""; display:inline-block; }
