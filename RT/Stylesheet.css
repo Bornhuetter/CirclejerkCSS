@@ -1,0 +1,728 @@
+/* main setup, body, side + header */
+body {
+    padding-bottom: 0;
+    background-image:url(%%header-bg%%);
+    background-repeat:repeat-x;
+    background-color:#fff;
+    background-position:0 0;
+    font-family:arial,helvetica,sans-serif;
+}
+
+body > .content {
+    margin: 0px auto;
+    margin-top:65px;
+    margin-left:50px;
+}
+
+body >.side {
+    width:350px;
+    margin-top:30px;
+    background-image:url(%%side-gradient%%);
+    background-position:top left;
+    background-repeat:repeat-y;
+}
+
+#siteTable {
+padding-right:360px;
+}
+
+body > .side .spacer {
+width:300px;
+margin-left:28px;
+}
+
+.side .titlebox {
+text-align:center;
+}
+
+.sidecontentbox .title h1 {
+text-transform: lowercase;
+color: #424242;
+font-size: 160%;
+font-family:"Segoe UI", "Gill Sans Light", Arial, Helvetica, sans-serif;
+font-weight:normal;
+}
+
+.sidecontentbox .content {
+margin: 0;
+border: none;
+background-color:#eaeaea;
+font-size: 13px;
+text-transform:capitalize;
+font-weight:bold;
+}
+.icon-menu a {
+    background-color:transparent;
+    color:#4e4e4e;
+}
+
+.side .sidecontentbox.collapsible .content a.author {
+    color:#4e4e4e;
+}
+.side .sidecontentbox.collapsible ul.content > li > ul > li {
+    padding:6px 10px 10px 10px;
+    border-bottom:1px solid #dddddd;
+}
+.side .sidecontentbox.collapsible ul.content > li > ul > li:last-child {
+    border-bottom:none;
+}
+.side .sidecontentbox a.helplink ~ .content > li {
+    color:#4e4e4e!important;
+    padding:10px 10px 10px 10px;
+    border-bottom:1px solid #dddddd;
+}
+.side .sidecontentbox a.helplink ~ .content > li a {
+    color:#4e4e4e!important;
+}
+.side .sidecontentbox a.helplink ~ .content > li a:hover {
+    text-decoration:underline;
+}
+.side .sidecontentbox a.helplink ~ .content > li:last-child {
+    border-bottom:none;
+}
+
+.sheets {
+    margin-right: 385px;
+}
+
+#header {
+    background:transparent;
+    border:none;
+    margin-left:50px;
+}
+
+#srLeftContainer {
+    margin:0; padding:0;
+}
+
+#sr-header-area {
+    background:transparent;
+    border:none;
+    text-transform:capitalize;
+    font-size:12px;
+    margin-top:4px;
+    width:75%;
+}
+
+#sr-header-area a {
+    color:#636363;
+    margin-right: 16px;
+}
+
+#sr-header-area a:hover {
+    color:#cc0a0a;
+}
+
+#sr-header-area .sr-list {
+    width:62%;
+}
+
+#sr-more-link {
+    right:150px;
+}
+
+#sr-header-area .separator,
+#sr-header-area #RESDashboardLink,
+#sr-header-area .undefined,
+#sr-header-area a[href="/r/random/"],
+#sr-header-area a[href="/r/mod/about/modqueue"],
+#sr-header-area .srSep,
+#sr-header-area #RESShortcutsEditContainer {
+    display:none;
+}
+
+
+
+/* comments */
+.sitetable.nestedlisting {
+clear:left;
+}
+.panestack-title .title {
+margin-top: 20px;
+}
+
+
+/* username, karma, etc. */
+#header-bottom-right {
+background-color:transparent;
+border-radius:0;
+padding:0;
+top:109px!important;
+right:5px;
+}
+#header-bottom-right.res-navTop {
+top:102px!important;
+}
+
+#userbarToggle {
+color:white!important;
+border-radius:0!important;
+background-color:gray!important;
+border:none!important;
+text-align:center!important;
+padding:5px!important;
+margin:0!important;
+min-height:22px!important;
+line-height:16px!important;
+left:-20px!important;
+top:-1px!important;
+padding-bottom:0!important;
+}
+#userbarToggle.userbarShow, #userbarToggle.userbarHide {
+min-height:22px!important;
+}
+#userbarToggle.userbarShow {
+background-color:transparent!important;
+}
+#header-bottom-right .user a,
+#header-bottom-right a {
+color:#dadada!important;
+font-size:12px!important;
+text-transform:capitalize!important;
+}
+
+#mail.havemail,#mail.nohavemail,
+#modmail.havemail,#modmail.nohavemail {
+    background-image:url(%%redditsprite%%);
+}
+#mail.havemail {
+    background-position:-114px -100px;
+}
+#mail.nohavemail {
+background-position:-98px -100px;
+}
+#modmail.havemail {
+background-position:-81px -95px;
+}
+#modmail.nohavemail {
+background-position:-64px -95px;
+}
+
+#RESAccountSwitcherIcon {
+    display:none!important;
+}
+
+/* Menu Bar - Hot, New, etc. */
+
+
+.tabmenu {
+position:absolute;
+top:105px;
+left:0;
+}
+
+.tabmenu li {
+    margin:0;
+
+}
+
+.tabmenu li a {
+padding:9px 28px;
+color: white;
+background-color: transparent;
+border: none;
+font-size:12px;
+font-family:arial,helvetica,sans-serif;
+font-weight:normal;
+text-transform:uppercase;
+}
+
+.tabmenu li a:hover {
+background-color: #595959;
+}
+
+.tabmenu li.selected a {
+color:white;
+background-color: #595959;
+border: none;
+}
+
+/* follow us */
+.titlebox .usertext-body .md p {
+display:inline-block;
+color:#3e3e3e;
+font-size:20px;
+margin-top:10px;
+padding-bottom:10px;
+padding-top:20px;
+}
+
+
+/* recently viewed */
+.gadget .reddit-entry {
+margin-left: 32px;
+}
+.gadget .thing {
+padding:10px 4px!important;
+}
+
+
+/* submit link */
+
+.sidebox.submit {
+    text-align:center;
+}
+
+.morelink {
+display:inline-block;
+background-color:white;
+background-image:url(%%submit-gradient%%);
+background-repeat:repeat-x;
+background-position:center center;
+font-weight:normal;
+font-family:arial,helevitica,sans-serif;
+letter-spacing:0px;
+border-radius:1px;
+-moz-border-radius:1px;
+border-color:#cacaca;
+font-size:13px;
+line-height:100%;
+height:auto;
+padding:6px 18px;
+margin-top:16px;
+margin-bottom:16px;
+}
+
+.morelink a, .morelink:hover a {
+color:#000;
+}
+
+.morelink:hover {
+    color:#333333;
+    border-color:#999;
+    background-color:white;
+    background-image:url(%%submit-gradient%%);
+    background-repeat:repeat-x;
+    background-position:center center;
+}
+
+.morelink .nub, .sidebox.create {display:none;}
+
+
+/* hide side elements */
+.side .titlebox .redditname, .side .titlebox > div, .side .titlebox span,
+.side .flairtoggle, .side .users-online, .side form.toggle.leavecontributor-button
+ {
+    display:none!important;
+}
+
+/* move side elements */
+.side a[href="http://www.reddit.com/r/circlejerk?RT"] {
+    display:block;
+    width:220px;
+    height:21px;
+    background-image:url(%%question-more%%);
+    background-repeat:no-repeat;
+    position:absolute!important;
+    top:54px;
+    left:160px;
+    z-index:101;
+}
+
+.side a[href="http://rt.com/on-air/"] {
+    padding:0 19px;
+    max-width:64px;
+    display:block;
+    background-image:url(%%live%%);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    position:absolute;
+    top:48px;
+    left:400px;
+    font-size: 12px;
+    font-weight:bold;
+    color: #fff;
+    line-height:32px;
+    z-index:101;
+}
+
+.side a[href="http://rt.com/on-air/"]:hover {
+    background-position:0 -32px;
+}
+
+.side a[href="http://ruptly.tv/"] {
+    display:block;
+    width:260px;
+    height:184px;
+    background-image:url(%%ruptly-widget%%);
+    background-repeat:no-repeat;
+}
+
+.side a[href="http://rt.com/mobile-apps/"],
+.side a[href="http://rt.com/rss/news/"] {
+    font-size:12px;
+    background-image:url(%%rt-sprite%%);
+    background-repeat:no-repeat;
+    color:#636363;
+    background-position:500px 500px;
+    z-index:1001;
+}
+
+.side a[href="http://rt.com/mobile-apps/"]:hover,
+.side a[href="http://rt.com/rss/news/"]:hover {
+    text-decoration:underline;
+    color:#cc0a0a;
+}
+
+.side a[href="http://rt.com/mobile-apps/"] {
+    background-position: -283px 0;
+    padding-left:12px;
+    position:absolute;
+    top:5px;
+    right:70px;
+}
+.side a[href="http://rt.com/rss/news/"] {
+    background-position: -281px -21px;
+    padding-left:16px;
+    position:absolute;
+    top:5px;
+    right:12px;
+}
+.side a[href="http://www.facebook.com/redditcirclejerk"],
+.side a[href="http://www.twitter.com/redditcj"],
+.side a[href="http://www.youtube.com/redditcj"],
+.side a[href="https://plus.google.com/107087479895900290028/videos"] {
+display:inline-block;
+width:30px;
+height:30px;
+background-image:url(%%rt-social%%);
+background-repeat:no-repeat;
+}
+.side a[href="http://www.facebook.com/redditcirclejerk"] {
+background-position:-155px 0;
+margin-left:20px;
+}
+.side a[href="http://www.facebook.com/redditcirclejerk"]:hover {
+background-position:0 0;
+}
+.side a[href="http://www.twitter.com/redditcj"] {
+background-position:-186px 0;
+}
+.side a[href="http://www.twitter.com/redditcj"]:hover {
+background-position:-31px 0;
+}
+.side a[href="http://www.youtube.com/redditcj"] {
+background-position:-217px 0;
+}
+.side a[href="http://www.youtube.com/redditcj"]:hover {
+background-position:-62px 0;
+}
+.side a[href="https://plus.google.com/107087479895900290028/videos"] {
+background-position:-248px 0;
+}
+.side a[href="https://plus.google.com/107087479895900290028/videos"]:hover {
+background-position:-93px 0;
+}
+
+/* style search bar */
+#search input[type="text"] {
+    width:230px;
+    height:28px;
+    background-image:url(%%search%%);
+    border:none;
+    padding:0;
+    position:absolute;
+    top:50px;
+    right:34px;
+    z-index:1001;
+}
+:focus {
+    outline:none;
+}
+#searchexpando { display:none!important; }
+
+
+
+
+/* style links */
+.thing .title.loggedin:visited,
+.thing .title.loggedin,
+.thing .title.loggedin.click:visited {
+display:block;
+color:#044faa;
+font-weight:bold;
+font-size:14px;
+line-height:19.8px!important;
+max-height:75px;
+text-transform:capitalize!important;
+overflow:hidden;
+}
+
+
+
+/* reflow links */
+.link {
+    width:206px;
+    float:left;
+    margin-right:25px;
+    padding-left:25px;
+    border-left:1px solid #eaeaea;
+    padding-bottom:25px;
+    border-bottom:1px solid #eaeaea;
+    padding-top:8px;
+    min-height:275px;
+}
+.sitetable .clearleft {
+clear:none;
+}
+.link.last-clicked {border:none!important;
+    border-left:1px solid #eaeaea!important;
+    border-bottom:1px solid #eaeaea!important;
+}
+.link .midcol {
+position:relative;
+top:118px;
+margin-left:5px;
+overflow:visible;
+}
+
+.link .rank,
+#siteTable .tagline,
+.link .flat-list li:not(.first) a, #siteTable .link .flat-list li span:not(.option)
+{display:none;}
+#siteTable .entry .buttons li.first a {
+margin-top:5px;
+display:block;
+color: white;
+font-weight: bold;
+padding: 0 1px;
+width:25px;
+height:9px;
+font-size:1px;
+text-indent:12px;
+background-image:url(%%comment%%);
+background-repeat:no-repeat;
+background-position:0 0;
+}
+#siteTable .entry .buttons li.first a:after {
+display:inline-block;
+content:" Comment";
+font-size:10px;
+color:#bbbbbb;
+margin-left:-15px;
+margin-top:-4px;
+font-weight:normal;
+}
+#siteTable .entry .buttons li.first a:hover:after {
+color:#999999;
+}
+#siteTable .entry .buttons li.first a:hover {
+background-position:0 -9px;
+}
+
+#siteTable .entry .buttons li form.remove-button a,
+#siteTable .entry .buttons li form.remove-button span.option.main {
+display:inline-block;
+font-size:10px;
+color:#bbbbbb;
+font-weight:normal;
+text-transform:capitalize;
+margin-left:4px;
+}
+.entry .buttons a:hover {
+text-decoration: none;
+color:#999999!important;
+}
+
+
+
+
+/* linkinfo */
+.linkinfo {
+padding: 5px;
+border: none;
+background-color: #eaeaea;
+border-radius: 0px;
+text-align:center;
+color:#686868!important;
+margin:10px 0;
+}
+.linkinfo .date {
+display:none;
+}
+.linkinfo .score span {
+font-size:14px!important;
+font-weight:normal!important;
+}
+.linkinfo .upvotes, .linkinfo .downvotes {
+color:#686868!important;
+}
+.linkinfo .downvotes:before {
+content:" / ";
+}
+
+/* report, mod buttons */
+.big-mod-buttons {
+display:block;
+margin-top:10px;
+}
+.pretty-button {
+margin-left: 0px;
+margin-right:3px;
+margin-bottom: 0;
+padding: 1px 4px;
+color: #111;
+font-size: 9px;
+border-radius: 0;
+}
+
+/* upvotes */
+.arrow.down, .arrow.downmod {
+    display:none;
+}
+.arrow, .arrow.up, .arrow.upmod {
+    height:20px;
+    width:20px;
+    background-image:url(%%rt-vote%%);
+    background-position:0 0;
+    background-repeat:no-repeat;
+}
+.arrow.upmod {
+    background-position:0 -20px;
+}
+.midcol, .comment .midcol {
+    width:20px!important;
+}
+.link .score {
+    font-size:15px;
+    text-align:left;
+    opacity:0.8;
+    position:relative;
+    bottom:18px;
+    left:28px;
+    color:#dadada;
+    z-index:1001;
+}
+.link .score.likes,
+.link .score.dislikes,
+.link .score.unvoted {
+color:#aaaaaa;
+}
+.link .score.likes:hover {
+    opacity:1;
+}
+
+
+.footer-parent {
+    border-top: 1px solid #c1c1c1;
+}
+
+
+
+.thumbnail {
+width:206px;
+display:block;
+z-index:100;
+margin-top:-45px;
+}
+
+.thumbnail img {
+    width:206px;
+    height:118px;
+}
+.thumbnail ~ .entry {
+    clear:left;
+    padding-top:32px;
+    margin-left:5px;
+}
+.thumbnail.default, .thumbnail.self {
+    height:118px;
+    background-image:url(%%rt-thumbnail%%);
+    background-position:0 0;
+}
+
+
+
+.panestack-title {
+border-bottom: none;
+}
+
+
+
+
+/* submit page, edit page, etc. */
+div#link-desc.infobar:before {
+content: "RT.COM/RUPTLY.TV LINKS ONLY!";
+color:white!important;
+font-size:19px;
+position:relative;
+top:14px;
+left:192px;
+}
+div#link-desc.infobar {
+color:#9a0404;
+background-color:#9a0404;
+border:none;
+background-image:url(%%breaking-news%%);
+background-repeat:no-repeat;
+background-position:0 0;
+height:50px;
+font-size:1px;
+padding:0;
+margin:0;
+}
+.formtabs-content {
+border:none;
+}
+.roundfield {
+border-radius:0;
+background-color:#eeeeee;
+}
+.roundfield .title {
+text-transform:capitalize;
+color:#999999;
+font-size:120%;
+}
+#url-field.roundfield .title {
+text-transform:uppercase;
+}
+form .spacer+.spacer {
+margin: 5px 0;
+}
+
+/* footer stuff */
+p.bottommenu {
+color:white;
+font-size:1px;
+position:relative;
+}
+
+p.bottommenu a {
+display:block;
+font-size:11px!important;
+color:black;
+text-decoration:none;
+}
+p.bottommenu a:hover {
+color: #cc0a0a !important;
+text-decoration: underline;
+}
+
+p.bottommenu a[href="http://www.reddit.com/help/useragreement"] {
+position:absolute;
+bottom:20px;
+left:70px;
+}
+p.bottommenu a[href="http://www.reddit.com/help/privacypolicy"] {
+position:absolute;
+bottom:20px;
+left:170px;
+}
+div.footer.rounded {
+display:none;
+}
+
+/* random RES shit */
+.RES-keyNav-activeElement {
+outline: none!important;
+background-image:url(%%gray%%);
+}
+#progressIndicator, #NERFail, .NERPageMarker, #endOfReddit {
+display:none!important;
+}
+#NREFloat {
+top: 26px;
+}
+.RESImage.loaded {
+z-index:9999!important;
+}
